@@ -1,0 +1,28 @@
+$Id: README,v 1.2 2002/10/25 15:48:46 reggers Exp $
+
+This module, Apache::AuthenFile, is an Apache/mod_perl authentication handler
+to authenticate users using a password file (cf. the Apache built in method
+"AuthUserFile" method).
+
+To build and install it, please run
+
+    perl Makefile.PL
+    make
+    make install
+
+To read more about this module try
+
+    pod2text AuthenFile.pm 
+
+We need this module in cases where the system/web manager imposes a site wide
+Perl authentication method from the system httpd.conf -- users who wish to
+override the imposed method have to use a Perl method.
+
+This package is Copyright (C) 2002 by Reg Quinton, Information Systems and
+Technology, University of Waterloo. It may be copied, used and redistributed
+under the same terms as perl itself.
+
+Reg Quinton <regers@ist.uwaterloo.ca>
+
+                                     "Stay calm, be brave, wait for the signs."
+							Dead Dog Cafe/CBC Radio
